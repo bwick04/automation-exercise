@@ -1,0 +1,24 @@
+{
+  "name": "automation-exercise",
+  "version": "1.0.0",
+  "description": "Coding exercise",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "cy:open": "./node_modules/.bin/cypress open",
+    "cy:run": "./node_modules/.bin/cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwick04/automation-exercise.git"
+  },
+  "author": "Benny Wick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwick04/automation-exercise/issues"
+  },
+  "homepage": "https://github.com/bwick04/automation-exercise#readme"
+}
