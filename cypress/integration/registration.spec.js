@@ -68,6 +68,9 @@ describe('Registration Page', () => {
             .find('[type="checkbox"]')
             .check({force: true})
 
+        cy.get('.submit-button')
+            .click()
+
         cy.get('.account-created-dialog')
             .should('be.visible')
     })

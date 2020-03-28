@@ -1,10 +1,14 @@
 # Steps to run tests
 
+Test is located in `cypress/integration` folder
+
 ## 1. Clone repository
 
 ```git clone https://github.com/bwick04/automation-exercise.git```
 
 ## 2. Navigate to project root and install dependencies
+
+```cd automation-exercise```
 
 ```npm install```
 
